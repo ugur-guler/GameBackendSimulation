@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameBackendSimulation", "GameBackendSimulation\GameBackendSimulation.csproj", "{4ADFFCD1-DEFE-4F3F-A803-35B197A29506}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{A46A9412-5490-4834-BE20-F1B3EE4919A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLogic", "BussinesLogic\BussinesLogic.csproj", "{473E2A11-94D7-4C21-B048-691E11E68F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4ADFFCD1-DEFE-4F3F-A803-35B197A29506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ADFFCD1-DEFE-4F3F-A803-35B197A29506}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ADFFCD1-DEFE-4F3F-A803-35B197A29506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46A9412-5490-4834-BE20-F1B3EE4919A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46A9412-5490-4834-BE20-F1B3EE4919A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46A9412-5490-4834-BE20-F1B3EE4919A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46A9412-5490-4834-BE20-F1B3EE4919A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473E2A11-94D7-4C21-B048-691E11E68F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473E2A11-94D7-4C21-B048-691E11E68F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473E2A11-94D7-4C21-B048-691E11E68F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473E2A11-94D7-4C21-B048-691E11E68F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
