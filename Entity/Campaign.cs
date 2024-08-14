@@ -8,6 +8,7 @@ namespace Entity
 {
     public class Campaign
     {
+        public int CampaignId { get; set; }
         public int GameId { get; set; }
         public int DisCount {  get; set; }
     }
