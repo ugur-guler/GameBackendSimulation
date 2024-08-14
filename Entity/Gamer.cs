@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    internal class Gamer
+    public class Gamer
     {
+        public int GamerId { get; set; }
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public string NationalIdentity { get; set;}
+        public List<Game> Games
+        { get; set; }
     }
 }

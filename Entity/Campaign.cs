@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    internal class Campaign
+    public class Campaign
     {
+        public int GameId { get; set; }
+        public int DisCount {  get; set; }
     }
 }
